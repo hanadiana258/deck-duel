@@ -6,13 +6,13 @@ const $ = (id) => document.getElementById(id);
 
 const CARDS = [
   { name: 'Firebolt', icon: '🔥', cost: 1, atk: 4, text: '4 damage' },
-  { name: 'Heavy Blade', icon: '⚔️', cost: 3, atk: 8, text: '8 damage' },
+  { name: 'Heavy Blade', icon: '⚔️', cost: 3, atk: 7, text: '7 damage' },
   { name: 'Frost Shield', icon: '❄️', cost: 1, guard: 4, text: 'block 4' },
   { name: 'Iron Wall', icon: '🛡️', cost: 2, guard: 7, text: 'block 7' },
   { name: 'Cure Salve', icon: '🌿', cost: 1, heal: 4, text: 'heal 4' },
   { name: 'Life Spring', icon: '💧', cost: 3, heal: 8, text: 'heal 8' },
   { name: 'Twin Darts', icon: '🎯', cost: 2, atk: 5, text: '5 damage' },
-  { name: 'Doomhammer', icon: '🔨', cost: 5, atk: 13, text: '13 damage' },
+  { name: 'Doomhammer', icon: '🔨', cost: 5, atk: 12, text: '12 damage' },
   { name: 'Elixir', icon: '⚗️', cost: 2, heal: 5, guard: 2, text: 'heal 5, block 2' },
   { name: 'Ember Lance', icon: '🔥', cost: 4, atk: 10, text: '10 damage' },
 ];
